@@ -3,7 +3,7 @@ name: Build-and-test
 on: #[ push ]
   push:
     branches: 
-     - master
+      - master
 jobs:
   build:
     env:
