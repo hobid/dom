@@ -34,7 +34,7 @@ jobs:
       run: go build -v ./...
     
     - run: ls -la
-    - run: dom
+    - run: go run main.go
     
 #     - name: Test
 #       run: go test -v ./...
