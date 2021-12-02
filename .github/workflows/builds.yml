@@ -9,6 +9,7 @@ jobs:
     env:
       GOPATH: ${{ github.workspace }}
       GO111MODULE: off
+      BOB: ${{ secrets.BOB }}
     runs-on: ubuntu-latest
     steps:
     
